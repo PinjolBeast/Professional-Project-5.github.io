@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Collection | MODERNIA 2026</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation (Consistent with Index) -->
+    <nav>
+        <div class="logo"><i class="fa-solid fa-couch"></i> MODERNIA</div>
+        <ul class="nav-links">
+            <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="product.html" class="active"><i class="fa-solid fa-box-open"></i> Products</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Produk -->
+    <section id="home" class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1>Modern Furniture Catalog 2026</h1>
+                <p>Explore the beauty of metal, glass, and composite materials.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-container">
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All Materials</button>
+            <button class="filter-btn" data-filter="metal">Metal & Steel</button>
+            <button class="filter-btn" data-filter="glass">Glass & Mirror</button>
+            <button class="filter-btn" data-filter="carbon">Carbon Fiber</button>
+        </div>
+    </section>
+
+    <!-- Product Display -->
+    <section class="section">
+        <div class="product-grid" id="full-product-container">
+            <!-- Data dari JS akan muncul di sini -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 MODERNIA | Eternal Materials for Future Homes</p>
+    </footer>
+
+    <!-- Use specific product JS file -->
+    <script src="js/main.js"></script>
+</body>
+</html>
